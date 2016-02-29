@@ -73,7 +73,7 @@ bar1 = plt.bar(index, actual_flows_acft, bar_width, color='b', alpha=opacity, la
 bar2 = plt.bar(index+bar_width, target_flows, bar_width, color='g', alpha=opacity, hatch='x', label='Target Flows')
 plt.xlabel('Month')
 plt.ylabel('Discharge (ac-ft/mo)')
-plt.title('Average Monthly Bear River Flows at Corinne Station (25 years)')
+plt.title('Average Monthly Bear River Flows at Corinne Station (50 years)')
 plt.xticks(index + bar_width, ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'))
 plt.legend()
 # plt.tight_layout()
